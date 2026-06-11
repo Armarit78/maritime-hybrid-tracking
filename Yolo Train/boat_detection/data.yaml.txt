@@ -1,0 +1,5 @@
+train: train/images
+val: test/images
+
+nc: 4
+names: ['Buoy', 'Ship', 'Sailboat', 'Drone']

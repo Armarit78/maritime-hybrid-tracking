@@ -1,0 +1,46 @@
+# Environnements et caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE et systeme
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Modeles et exports lourds
+*.pt
+*.onnx
+*.engine
+*.cache
+
+# Medias bruts et resultats generes
+*.mp4
+*.avi
+*.mov
+*.mkv
+Yolo Train/runs/
+Z_Tracking/TEST/results_*/
+Z_Tracking/TEST/images/
+
+# Dataset local (conserver data.yaml)
+Yolo Train/boat_detection/train/images/
+Yolo Train/boat_detection/train/labels/
+Yolo Train/boat_detection/test/images/
+Yolo Train/boat_detection/test/labels/
+
+# Journaux et exports d'analyse
+*.csv
+*_summary.json
+*_metrics.png
+
+# Conserver les cinq illustrations du README
+!docs/yolo-detection-overview.png
+!docs/detection-onnx.jpg
+!docs/hybrid-tracking-results.png
+!docs/tracking-demo.jpg
+!docs/tracking-metrics.png
